@@ -1,1 +1,33 @@
-yag si elyk
+@font-face {
+    font-family: 'abeezee';
+    src: url('fonts/abeezee-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'amaticsc';
+    src: url('fonts/amaticsc-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+p{
+    font-family: 'abeezee'serif;
+}
+h1{
+    font-family: 'amaticsc'serif;
+  }
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #c1c1c1;
+}
+.row{
+  height: 100vh;
+}
+.inner-row-wrap {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.back-color{
+  background-color: #7f1a1a
+}
